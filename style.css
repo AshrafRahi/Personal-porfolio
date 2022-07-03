@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color:rgb(6, 57, 78);
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    margin-left:300px ;
+    padding: 20px;
+}
+header .nav{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px; 
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration:none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 200px;
+    background-color: white;
+}
+header .nav ul li a:hover{
+    color: black;
+    background-color:rgb(5, 5, 85);
+}
+.section1{
+    color:white;
+    background-color: white;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius:0 50% ;
+    background:rgb(10, 40, 53);
+}
+.rahi1, .rahi2{
+    width: 50%;
+}
+.rahi1{
+    margin-left: 250px;
+    margin-bottom: 100px;
+}
+.section1 .rahi1 h1{
+    font-size: 30px;
+}
+.rahi2{
+    padding-right: 100px;
+    margin-top: 80px;
+}
+.rahi2 img{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.rahi1 h3{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.section1.rahi1 p{
+    font-weight: 20%;
+}
+.rahi1 button{
+    padding: 12px 25px;
+    background-color: #1b064e;
+    outline: none;
+    color: white;
+    border: 1px solid ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.rahi1 button:hover{
+    box-shadow:10px 10px 50px rgba(10, 233, 43, 0.5);
+    outline: none;
+}
+.section2{
+    color:black;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 30%;
+    margin: 0 auto;
+}
+.section2 img{
+    width:100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+.rahi4 h3{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.rahi4 h1{
+    font-size: 30px;
+}
+.section2 .rahi4 p{
+    font-weight: 10%;
+}
+.rahi4 button{
+    padding: 12px 25px;
+    background-color: #1b0553;
+    outline: none;
+    color: white;
+    border: 1px solid ;
+    font-size: 15px;
+    cursor: pointer;
+}
+.rahi4 button:hover{
+    box-shadow:10px 10px 50px rgba(16, 245, 207, 0.5);
+    outline: none;
+}
+.section3{ 
+    width: 100%;
+    height: 300px;
+    margin: 50px auto;
+    background-color:white;
+    text-align: center;
+}
+.rahi5{
+    margin-bottom: 50px;
+}
+.section3 h1{
+    font-size: 40px;
+}
+.section3 p{
+    color:cadetblue;
+}
+.rahi6{
+    width: 80%;
+    margin: 0 auto;
+}
+.rahi7{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 250px;
+}
+.rahi7 div{
+    width: 30%;
+    padding: 5px;
+    margin: 0 auto;
+    float: left;
+}
+.rahi6 i{
+    font-size: 45px;
+}
+.rahi6 span:hover{
+    color: #8490ff;
+    cursor: pointer;
+}
+.rahi7 p{
+    color: gray;
+}
+.rahi6 h1{
+    font-size: 30px;
+}
+.section4{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+}
+.section4 .rahi8{
+    text-align: center;
+    padding: 2% 0;
+}
+.section4 .rahi8 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section4 .rahi8 p{
+    color: black;
+}
+.section4 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section4 .card1{
+    width: 300px;
+    height: 600px;
+    color: white;
+    background-color:#04094e;
+    text-align: center;
+    border: 1px solid black;
+}
+.section4 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section4 .card1 .price{
+    font-size: 40px;
+}
+.section4 .card1 input{
+    outline: none;
+    background-color:skyblue;
+    color: black;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.section4 .card1:hover{
+    background-color: #8293ff;
+    color: white;
+    box-shadow: 0px 8px 12px 0 red;
+}
+.section4 .card1:hover input{
+    background-color: green;
+}
+footer{
+    background-color: #010316;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top:100px ;
+    color: white;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+footer .foot .foot1 p{
+    color: rgb(167, 164, 161);
+}
+
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #04094e;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
