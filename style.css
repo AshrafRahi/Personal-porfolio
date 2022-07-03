@@ -88,16 +88,18 @@ header .nav ul li a:hover{
 .section1.rahi1 p{
     font-weight: 20%;
 }
-.rahi1 button{
+.rahi1-button{
     padding: 12px 25px;
-    background-color: #1b064e;
+    background-image: linear-gradient(skyblue, #1b064e);
     outline: none;
     color: white;
     border: 1px solid ;
+    border-color: black;
     font-size: 15px;
     cursor: pointer;
+    text-decoration: none;
 }
-.rahi1 button:hover{
+.rahi1-button:hover{
     box-shadow:10px 10px 50px rgba(10, 233, 43, 0.5);
     outline: none;
 }
@@ -129,8 +131,9 @@ header .nav ul li a:hover{
 .section2 .rahi4 p{
     font-weight: 10%;
 }
-.rahi4 button{
+.rahi4-button{
     padding: 12px 25px;
+    text-decoration: none;
     background-color: #1b0553;
     outline: none;
     color: white;
@@ -138,7 +141,7 @@ header .nav ul li a:hover{
     font-size: 15px;
     cursor: pointer;
 }
-.rahi4 button:hover{
+.rahi4-button:hover{
     box-shadow:10px 10px 50px rgba(16, 245, 207, 0.5);
     outline: none;
 }
